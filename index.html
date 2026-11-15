@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#087a43">
+<meta name="description" content="الموقع التعريفي بمحمد باوني، مترشح المجلس الشعبي الولائي عن الدائرة الانتخابية بوسعادة، رقم 39، القائمة 1.">
+<title>محمد باوني | الدائرة الانتخابية بوسعادة</title>
+<style>
+:root{--green:#087a43;--green2:#0c9854;--deep:#064d30;--red:#c81018;--gold:#d8bd75;--ink:#151a17;--muted:#68736d;--paper:#f7faf7}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:86px}
+body{margin:0;font-family:Tahoma,Arial,sans-serif;color:var(--ink);line-height:1.85;background:#fff;overflow-x:hidden}
+a{text-decoration:none;color:inherit}button{font:inherit}
+header{height:76px;position:sticky;top:0;z-index:20;background:#063d28;color:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 max(5%,calc((100% - 1160px)/2));box-shadow:0 5px 20px #002b1a33}
+.brand{font-size:26px;font-weight:800}.brand span{color:#e9d9a7}
+.menu{border:0;background:transparent;color:white;font-size:30px;cursor:pointer}
+nav{display:none;position:absolute;top:76px;right:0;left:0;background:#06472e;padding:16px 5%;gap:20px;flex-wrap:wrap;box-shadow:0 12px 20px #0002}
+nav.open{display:flex;animation:drop .25s ease}nav a{color:white}nav a:hover{color:#f0d98e}
+.party-strip{background:#087a43;overflow:hidden}.party-strip img{display:block;width:100%;max-height:150px;object-fit:cover}
+.hero{position:relative;min-height:610px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:25px;padding:55px max(5%,calc((100% - 1160px)/2));background:radial-gradient(circle at 15% 25%,#d9f5e4 0,transparent 32%),linear-gradient(120deg,#f7fff9,#e5f5e9 52%,#fff)}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,transparent 70%,#0b87451a);pointer-events:none}
+.hero-copy{position:relative;z-index:1;animation:rise .8s both}
+.eyebrow{display:inline-block;background:#e6f5eb;color:var(--deep);border:1px solid #b9dfc8;padding:5px 15px;border-radius:30px;font-weight:bold}
+.hero h1{font-size:clamp(42px,6vw,72px);line-height:1.25;margin:18px 0 5px;color:#102b1d}
+.hero .slogan{font-size:clamp(23px,3vw,34px);color:var(--green);font-weight:bold;margin:5px 0 20px}
+.hero p{font-size:19px;color:#48584d;margin:8px 0}
+.numbers{display:flex;gap:12px;flex-wrap:wrap;margin:25px 0}
+.number{background:var(--red);color:#fff;padding:8px 18px;border-radius:12px;font-size:20px;font-weight:bold;box-shadow:0 8px 18px #c810182b}
+.number.green{background:var(--green)}
+.hero-photo{position:relative;z-index:1;justify-self:center;width:min(100%,440px);animation:float 5s ease-in-out infinite}
+.hero-photo img{width:100%;display:block;border-radius:42% 42% 18px 18px;object-fit:cover;max-height:550px;box-shadow:0 22px 55px #063d2830;border:8px solid white}
+.section{padding:76px 0}.container{width:min(1080px,90%);margin:auto}
+.heading{font-size:clamp(28px,4vw,40px);color:var(--deep);margin:0 0 34px;padding-right:17px;border-right:7px solid var(--green);line-height:1.35}
+.bio-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.info{background:#fff;border:1px solid #e2eee5;border-radius:16px;padding:23px;box-shadow:0 8px 24px #064d3008;transition:.3s}
+.info:hover{transform:translateY(-6px);box-shadow:0 14px 28px #064d3015;border-color:#9ac9a9}
+.info .icon{font-size:28px;color:var(--green)}.info h3{margin:4px 0;color:var(--deep);font-size:21px}.info p{margin:0;color:#5d6a61}
+.statement{background:linear-gradient(120deg,#075a36,#0a8b4d);color:#fff;text-align:center;position:relative;overflow:hidden}
+.statement:before{content:"";position:absolute;width:330px;height:330px;border:1px solid #ffffff35;border-radius:50%;top:-190px;right:-80px}
+.statement .quote{font-size:clamp(29px,5vw,52px);font-weight:900;margin:0 0 8px}.statement p{font-size:18px;color:#e4f4e9}
+.election{background:var(--paper)}
+.election-card{display:flex;justify-content:space-between;align-items:center;gap:25px;padding:28px;background:white;border-radius:20px;border:1px solid #dcebe0;box-shadow:0 12px 32px #064d3010}
+.election-card img{width:130px;height:130px;object-fit:contain}.election-card h3{font-size:25px;color:var(--deep);margin:0}.election-card p{margin:5px 0;color:#637168}
+.poster{display:block;width:min(520px,100%);margin:35px auto 0;border-radius:14px;box-shadow:0 15px 40px #0002}
+.contact{background:#082f20;color:white}.contact .heading{color:#fff}.contact-box{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+.contact p{color:#d7e9dc}.contact a{display:block;background:#104a31;border:1px solid #357553;border-radius:12px;padding:14px 18px;margin:10px 0;transition:.25s}.contact a:hover{background:#17633f;transform:translateX(-4px)}
+footer{background:#041d13;color:#d3e4d9;text-align:center;padding:24px}
+.sticky{position:fixed;z-index:30;bottom:0;right:0;left:0;background:linear-gradient(90deg,#087a43,#0a9854,#087a43);background-size:200% 100%;animation:flow 7s linear infinite;color:#fff;padding:10px 45px;display:flex;align-items:center;justify-content:center;gap:14px;text-align:center;box-shadow:0 -5px 20px #002d1b33}
+.sticky b{font-size:18px}.sticky small{display:block;color:#e4f4e9}.sticky .badge{background:#fff;color:var(--red);border-radius:10px;padding:3px 12px;font-weight:bold;font-size:22px}
+.close{position:absolute;left:12px;top:50%;transform:translateY(-50%);border:0;background:none;color:white;font-size:25px;cursor:pointer}
+.top{position:fixed;left:18px;bottom:90px;border:0;border-radius:50%;width:46px;height:46px;background:var(--green);color:white;font-size:23px;cursor:pointer;box-shadow:0 5px 15px #0002}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}.reveal.show{opacity:1;transform:none}
+body{padding-bottom:72px}
+@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes drop{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+@keyframes flow{to{background-position:200% 50%}}
+@media(max-width:760px){header{height:68px;padding:0 5%}.brand{font-size:22px}nav{top:68px}.party-strip img{max-height:90px}.hero{grid-template-columns:1fr;padding:42px 6%;text-align:center;gap:25px}.hero-photo{grid-row:1;width:min(75%,330px)}.hero-photo img{max-height:390px}.numbers{justify-content:center}.bio-grid{grid-template-columns:1fr}.section{padding:55px 0}.election-card{flex-direction:column;text-align:center}.contact-box{grid-template-columns:1fr}.sticky{padding:9px 38px;gap:8px}.sticky b{font-size:15px}.sticky small{font-size:13px}.sticky .badge{font-size:18px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header><a class="brand" href="#home">محمد <span>باوني</span></a><button class="menu" id="menu" aria-label="القائمة" aria-expanded="false">☰</button>
+<nav id="nav"><a href="#home">الرئيسية</a><a href="#profile">السيرة العلمية</a><a href="#message">العبارة</a><a href="#election">الاستحقاق الانتخابي</a><a href="#poster">الملصق</a><a href="#contact">التواصل</a></nav></header>
+<div class="party-strip"><img src="assets/party-banner.jpg" alt="شعار حزب جبهة التحرير الوطني"></div>
+<section class="hero" id="home"><div class="hero-copy"><span class="eyebrow">المجلس الشعبي الولائي · بوسعادة</span><h1>محمد باوني</h1><div class="slogan">الحديث قياس</div><p>إطار بمحكمة بوسعادة</p><p>مترشح لانتخابات المجلس الشعبي الولائي</p><div class="numbers"><span class="number">رقم 39</span><span class="number green">القائمة رقم 1</span></div><p><strong>28 نوفمبر 2026</strong> · الدائرة الانتخابية بوسعادة</p></div>
+<div class="hero-photo"><img src="assets/candidate-portrait.jpg" alt="صورة المترشح محمد باوني"></div></section>
+<section class="section" id="profile"><div class="container"><h2 class="heading reveal">المسار العلمي والمهني</h2><div class="bio-grid">
+<article class="info reveal"><div class="icon">⚖️</div><h3>إطار بمحكمة بوسعادة</h3><p>المسار المهني كما ورد في المعلومات المقدمة.</p></article>
+<article class="info reveal"><div class="icon">🎓</div><h3>ليسانس حقوق</h3><p>شهادة ليسانس في الحقوق.</p></article>
+<article class="info reveal"><div class="icon">📚</div><h3>ليسانس أدب</h3><p>شهادة ليسانس في الأدب.</p></article>
+<article class="info reveal"><div class="icon">💡</div><h3>ليسانس فلسفة</h3><p>شهادة ليسانس في الفلسفة.</p></article>
+<article class="info reveal"><div class="icon">🏛️</div><h3>الدائرة الانتخابية</h3><p>بوسعادة · ولاية المسيلة.</p></article>
+<article class="info reveal"><div class="icon">🗳️</div><h3>رقم الترتيب</h3><p>39 ضمن القائمة رقم 1.</p></article>
+</div></div></section>
+<section class="section statement" id="message"><div class="container reveal"><p class="quote">«الحديث قياس»</p><p>العبارة التي اخترتم اعتمادها عنواناً مميزاً للموقع.</p></div></section>
+<section class="section election" id="election"><div class="container"><h2 class="heading reveal">الاستحقاق الانتخابي</h2><div class="election-card reveal"><div><h3>حزب جبهة التحرير الوطني</h3><p>انتخابات المجلس الشعبي الولائي</p><p>الدائرة الانتخابية: بوسعادة</p><p>تاريخ الانتخابات: 28 نوفمبر 2026</p><p><strong>المترشح: محمد باوني · الترتيب: 39 · القائمة: 1</strong></p></div><img src="assets/party-logo.png" alt="شعار حزب جبهة التحرير الوطني"></div></div></section>
+<section class="section" id="poster"><div class="container"><h2 class="heading reveal">الملصق التعريفي</h2><img class="poster reveal" src="assets/campaign-poster.jpg" alt="الملصق التعريفي للمترشح محمد باوني"></div></section>
+<section class="section contact" id="contact"><div class="container"><h2 class="heading reveal">تواصل معنا</h2><div class="contact-box"><div class="reveal"><p>هذه الصفحة مخصصة للتعريف بالمترشح ومساره العلمي والمهني والاستحقاق الانتخابي.</p><p>يمكن إضافة رقم الهاتف، صفحة فيسبوك، البريد الإلكتروني ومعلومات الاتصال عند توفيرها.</p></div><div class="reveal"><a href="#home">↑ العودة إلى الصفحة الرئيسية</a><a href="#election">معلومات الانتخابات</a></div></div></div></section>
+<footer>© <span id="year"></span> محمد باوني · الدائرة الانتخابية بوسعادة</footer>
+<div class="sticky" id="sticky"><span class="badge">39</span><div><b>محمد باوني · القائمة رقم 1</b><small>حزب جبهة التحرير الوطني · بوسعادة</small></div><button class="close" id="close" aria-label="إغلاق">×</button></div>
+<button class="top" id="top" aria-label="العودة للأعلى">↑</button>
+<script>
+const menu=document.getElementById('menu'),nav=document.getElementById('nav');
+menu.addEventListener('click',()=>{let v=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(v));menu.textContent=v?'×':'☰'});
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.textContent='☰';menu.setAttribute('aria-expanded','false')}));
+document.getElementById('close').addEventListener('click',()=>document.getElementById('sticky').style.display='none');
+document.getElementById('top').addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+document.getElementById('year').textContent=new Date().getFullYear();
+const obs=new IntersectionObserver(items=>items.forEach(x=>{if(x.isIntersecting){x.target.classList.add('show');obs.unobserve(x.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(x=>obs.observe(x));
+</script>
+</body></html>
